@@ -21,7 +21,6 @@ master/
 ├── 3. Final Model.ipynb                  # Hybrid model + LLM explanation layer
 ├── 4. Streamlit Demo App.ipynb           # Installs deps, verifies data files, launches app.py
 ├── app.py                                # Streamlit interactive demo application
-├── .env                                  # API key storage (not committed to Git)
 ├── .gitignore
 ├── requirements.txt                      # Package list
 ├── data/
@@ -132,15 +131,6 @@ Ensure Ollama is running before launching the app. The app connects to `http://l
 ```
 
 > **Note:** The raw POS data files in `data/raw/` are not included in this repository as they contain confidential business information. The notebooks expect 8 CSV files named `{half}-{year}.csv` (e.g. `1-2022.csv`, `2-2023.csv`) inside `data/raw/`.
-
----
-
-## Ethical Considerations
-
-- The dataset was anonymised prior to analysis and contains no personal information.
-- Data was used solely for academic research purposes.
-- The system is designed as a **decision-support tool, not an automated decision-making system**. All final marketing decisions remain with human managers.
-- The LLM layer does not access raw data — it only receives structured analytical outputs.
 
 ---
 
