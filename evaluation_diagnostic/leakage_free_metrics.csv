@@ -1,0 +1,5 @@
+model,n_test_cases,n_with_recs,availability,total_hits,n_hit_cases,Precision@5_all,Recall@5_all,NDCG@5_all,Precision@5_nonempty_only,Recall@5_nonempty_only,NDCG@5_nonempty_only
+Assoc. Rules,100.0,37.0,0.37,1.0,1.0,0.002,0.005,0.003066,0.005405,0.013514,0.008286
+Hybrid,100.0,100.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Item-CF,100.0,98.0,0.98,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Popularity,100.0,100.0,1.0,7.0,5.0,0.014,0.023881,0.021372,0.014,0.023881,0.021372

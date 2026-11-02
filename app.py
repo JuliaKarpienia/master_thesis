@@ -175,6 +175,7 @@ def generate_llm_prompt(hybrid_output):
         "- Do NOT mention numbers, scores, statistics, percentages, or technical terms.\n"
         "- Do NOT explain how the recommendations were generated.\n"
         "- Use markdown formatting."
+        # "-Write ENTIRELY in Polish, as the store is located in Poland and the staff only speaks Polish."
     )
     return prompt
 
@@ -189,6 +190,7 @@ def call_llm(prompt):
         )
         response = client.chat.completions.create(
             model="mistral",
+            # model='llama3.1:8b', 
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3,
             max_tokens=400,

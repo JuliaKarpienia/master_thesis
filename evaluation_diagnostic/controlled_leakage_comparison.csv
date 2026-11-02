@@ -1,0 +1,5 @@
+model,Precision@5_all_train_only,Precision@5_all_invalid_full_data_fit,Precision@5_all_inflation_from_leakage,Recall@5_all_train_only,Recall@5_all_invalid_full_data_fit,Recall@5_all_inflation_from_leakage,NDCG@5_all_train_only,NDCG@5_all_invalid_full_data_fit,NDCG@5_all_inflation_from_leakage,train_only_total_hits,invalid_full_data_total_hits
+Assoc. Rules,0.002,0.002,0.0,0.005,0.005,0.0,0.003066,0.003066,0.0,1.0,1.0
+Hybrid,0.0,0.046,0.046,0.0,0.083857,0.083857,0.0,0.09855,0.09855,0.0,23.0
+Item-CF,0.0,0.046,0.046,0.0,0.083857,0.083857,0.0,0.099438,0.099438,0.0,23.0
+Popularity,0.014,0.014,0.0,0.023881,0.023881,0.0,0.021372,0.021372,0.0,7.0,7.0

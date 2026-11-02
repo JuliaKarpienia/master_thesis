@@ -1,0 +1,6 @@
+test_customers: 100
+train_rows: 152467
+test_rows: 369
+train_invoices: 54536
+test_invoices: 100
+evaluated_cases: 100
